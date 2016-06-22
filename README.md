@@ -12,3 +12,13 @@ To simulate locally how Mixmax calls the resolver URL (to return HTML that goes 
 ```
 curl http://localhost:3000/resolver?url=imgur.com/yXHLZeb
 ```
+
+##Mixmax Parameters
+
+
+
+|Input name|Value|
+|---  |---|
+|Description|Imgur|
+|Regex|imgur.com\/?(gallery)?\/[^\/]+$|
+|Resolver URL|http://localhost:3000/resolver|

@@ -2,8 +2,8 @@ require 'uri'
 require 'net/http'
 require 'net/https'
 class ApiController < ApplicationController
-  before_filter :cors_preflight_check
-  after_filter :cors_set_access_control_headers
+  before_action :cors_preflight_check
+  after_action :cors_set_access_control_headers
 
   # regex
   # imgur.com\/?(gallery)?\/[^\/]+$

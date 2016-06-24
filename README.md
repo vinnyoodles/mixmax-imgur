@@ -2,6 +2,8 @@
 
 This is an open source Mixmax Link Resolver. See <http://sdk.mixmax.com/docs/tutorial-giphy-link-preview> for more information about how to use this example code in Mixmax.
 
+<img src="public/demo.gif"/>
+
 ## Running locally
 
 1. Install using `bundle install`
@@ -14,8 +16,6 @@ curl http://localhost:3000/resolver?url=imgur.com/yXHLZeb
 ```
 
 ##Mixmax Parameters
-
-
 
 |Input name|Value|
 |---  |---|
